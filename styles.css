@@ -1,0 +1,172 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*-----------------nav bar---------------*/
+.nav_container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.69); 
+    justify-content: center;
+    z-index: 1;
+   
+}
+
+.nav_container a {
+    color: rgb(210, 210, 210);
+    text-decoration: none;
+}
+
+.logo{
+    align-items: center;
+    padding-right: 1em;
+}
+.nav_container .logo a img{
+    max-width: 130%;
+    max-height: 130%;
+    padding-right: 0.7em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: .9em;
+}
+ nav ul li {
+    display: inline;
+    position: center;
+    padding: 0px 2em;
+    font-size: .7em;
+ }
+
+
+.icons{
+    padding-left: 0;
+}
+
+ .icons .fa-solid {
+    margin-left: 1em;
+    margin-right: 2em;
+ }
+/*-----------------nav bar ending---------------*/
+
+
+
+/* ----------------first section start--------------- */
+
+.firstsection {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.firstsection h1 {
+    position: relative;
+    font-size: 3.3em;
+    font-weight: bold;
+    top: 2em;
+}
+
+.firstsection p {
+    position: relative;
+    font-size: 1.5em;
+    top: 4.5em;
+    color: grey;
+    padding: .5em;
+}
+
+.firstsection a:link {
+    color:grey;
+ }
+.firstsection a:hover {
+    text-decoration: underline;
+ }
+.firstsection a:visited {
+    color: rgb(0, 153, 255);
+    text-decoration: underline;
+ }
+
+ .firstsection img {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    top: 6em;
+ }
+
+/* -------------------first section end---------------------- */
+
+.secondsection {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.secondsection h1 {
+    position: relative;
+    font-size: 3.5em;
+    font-weight: bold;
+    top: 1em;
+    padding: .5em;
+}
+
+
+.secondsection p {
+    position: relative;
+    font-size: 1.5em;
+    top: .7em;
+    color: rgb(55, 55, 55);
+    padding-top: .8em;
+}
+
+.secondsection p a {
+    text-align: center;
+    font-size: .75em;
+    padding-top: 1.5em;
+}
+
+.secondsection p a:nth-of-type(1) {
+    position: relative;
+    right: 1em;
+
+}
+
+.secondsection a:link {
+    color:rgb(57, 57, 57);
+ }
+.secondsection a:hover {
+    text-decoration: underline;
+ }
+.secondsection a:visited {
+    color: rgb(4, 122, 201);
+    text-decoration: underline;
+ }
+
+ .secondsection img {
+    width: 90%;
+    height: 90%;
+ }
